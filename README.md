@@ -28,39 +28,6 @@ The primary goal of this project is to gain hands-on experience with:
 •   **Clean and Minimal Design:** Focused on usability and readability.
 •   **[Optional] Blog/Writing Section:** To share thoughts and experiences.
 
-## Getting Started
-
-1.  **Clone the repository:**
-    bash
-    git clone [repository_url]
-    ```
-
-2.  Navigate to the project directory:
-        cd [project_folder]
-    
-
-3.  Install dependencies:
-        npm install
-    # or
-    yarn install
-    
-
-4.  Run the development server:
-        npm run dev
-    # or
-    yarn dev
-    
-
-5.  Open your browser and visit http://localhost:3000
-
-▌Project Structure
-
-•   pages/: Contains Next.js pages and routes.
-•   components/: Reusable React components.
-•   styles/: Global styles, Tailwind configurations, etc.
-•   public/: Static assets like images, etc.
-•   tsconfig.json: TypeScript configuration file.
-•   package.json: Project dependencies and scripts.
 
 ▌Contributing
 
@@ -69,5 +36,4 @@ Feel free to contribute by submitting pull requests or opening issues to report 
 ▌Notes
 
 This project is primarily for learning and practice purposes.  The features and structure might be adjusted as needed.
-```
 
