@@ -12,4 +12,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-// 20m 6:15pm
