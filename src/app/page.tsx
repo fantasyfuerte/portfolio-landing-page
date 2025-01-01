@@ -1,7 +1,10 @@
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-6xl font-semibold">Welcome to my portfolio page</h1>
+    <main>
+      <div className="flex min-h-screen h-full bg-no-repeat bg-gradient-cover">
+        <p>Cover</p>
+        <p>Introducción</p>
+      </div>
     </main>
   );
 }

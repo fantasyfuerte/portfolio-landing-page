@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 html,
-body {
-  color: "#fff";
-  background-color: "#1f1934";
+main {
+  color: #fff;
+  background-color: #1f1934;
 }
 
 main {
-  background-color: "#393a47";
+  background: #393a47;
   height: 100vh;
   height: 100dvh;
 }
