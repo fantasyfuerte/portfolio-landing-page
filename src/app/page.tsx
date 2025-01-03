@@ -1,4 +1,4 @@
-import CoverParticles from "./components/cover-particles";
+import CoverParticles from "../../components/cover-particles";
 
 export default function Home() {
   return (
