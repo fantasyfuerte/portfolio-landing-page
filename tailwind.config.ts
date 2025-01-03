@@ -14,7 +14,7 @@ const config = {
       },
       backgroundImage: {
         "gradient-cover":
-          "linear-gradient(95deg, rgba(70, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
+          "linear-gradient(110deg, rgba(200, 34, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
       },
     },
   },
