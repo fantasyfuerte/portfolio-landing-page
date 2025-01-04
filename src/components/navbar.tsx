@@ -2,13 +2,17 @@
 
 import { itemsNavbar } from "../data";
 import { usePathname } from "next/navigation";
-import Link from "next/link"; 
+import Link from "next/link";
+import MotionTransition from "./transition-component";
 
 const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="fixed flex flex-col items-center justify-center w-full mt-auto h-max bottom-10">
+    <MotionTransition
+      position="right"
+      className="fixed flex flex-col items-center justify-center w-full mt-auto h-max bottom-10"
+    >
       <nav>
         <div className="flex justify-center items-center w-full gap-2 px-4 py-1 bg-white/15 rounded-full backdrop-blur-sm">
           {itemsNavbar.map((item) => (
@@ -23,7 +27,7 @@ const Navbar = () => {
           ))}
         </div>
       </nav>
-    </div>
+    </MotionTransition>
   );
 };
 
