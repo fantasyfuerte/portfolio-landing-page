@@ -6,7 +6,7 @@ import { fadeIn } from "../utils/motion-transitions";
 interface Props {
   children: React.ReactNode;
   position: "right" | "bottom";
-  className: string;
+  className?: string;
 }
 
 const MotionTransition = (props: Props) => {
