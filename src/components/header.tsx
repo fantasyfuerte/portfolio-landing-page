@@ -1,3 +1,4 @@
+import Link from "next/link";
 import MotionTransition from "./transition-component";
 
 function Header() {
@@ -7,7 +8,9 @@ function Header() {
       className="absolute z-40 inline-block w-full top-5 md:top-10"
     >
       <header>
-        <div className="container justify-between max-w-6xl mx-auto md:flex"></div>
+        <div className="container justify-between max-w-6xl mx-auto md:flex">
+          <Link href="/">Fuerte</Link>
+        </div>
       </header>
     </MotionTransition>
   );
