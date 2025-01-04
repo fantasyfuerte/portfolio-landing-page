@@ -12,9 +12,12 @@ interface Props {
 const MotionTransition = (props: Props) => {
   const { children, position, className } = props;
 
+  const variants = fadeIn(position)
+  console.log(variants)
+
   return (
     <motion.div
-      variants={fadeIn(position)}
+      variants={variants}
       initial="hidden"
       animate="visible"
       exit="hidden"
