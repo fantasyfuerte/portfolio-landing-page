@@ -16,13 +16,17 @@ function Header() {
               <span className="text-secondary">Dev</span>
             </h1>
           </Link>
-            <div className="flex items-center justify-center gap-7">
-              {socialNetworks.map(({ logo, src, id }) => (
-                <Link key={id} href={src} target="_blank">
-                  {logo}
-                </Link>
-              ))}
-            </div>
+          <div className="flex items-center justify-center gap-7">
+            {socialNetworks.map(({ logo, src, id }) => (
+              <Link
+                className="transition-all duration-300 ease-in-out hover:text-secondary"
+                key={id}
+                href={src}
+              >
+                {logo}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </MotionTransition>
