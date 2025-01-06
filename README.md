@@ -7,8 +7,10 @@ This project is a portfolio website built with TypeScript, Next.js, and Tailwind
 The primary goal of this project is to gain hands-on experience with:
 
 •   **TypeScript:**  Implementing static typing for improved code maintainability and development.
+
 •   **Next.js:**  Leveraging a React framework for server-side rendering (SSR), routing, and enhanced performance.
 •   **Tailwind CSS:**  Using a utility-first CSS framework for rapid styling and customization.
+
 •   **Portfolio Development:**  Designing and building a personal portfolio to showcase skills and projects.
 
 ## Technologies Used
