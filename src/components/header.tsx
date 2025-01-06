@@ -12,6 +12,9 @@ function Header() {
           <Link href="/">
             <h1 className="my-3 text-4xl font-bold text-center md:text-left">
               Fuerte
+              <span className="text-secondary">
+                Dev
+              </span>
             </h1>
           </Link>
         </div>
