@@ -27,11 +27,17 @@ The primary goal of this project is to gain hands-on experience with:
 ## Features (Planned/Implemented)
 
 •   **Homepage:** Introduction and overview of skills.
+
 •   **Projects Page:** Showcase of personal projects.
+
 •   **About Page:** Detailed information about you, your background, and interests.
+
 •   **Contact Page:** Form or links to reach out.
+
 •   **Responsive Design:** Optimized for different screen sizes.
+
 •   **Clean and Minimal Design:** Focused on usability and readability.
+
 •   **[Optional] Blog/Writing Section:** To share thoughts and experiences.
 
 
