@@ -17,8 +17,11 @@ The primary goal of this project is to gain hands-on experience with:
 ## Technologies Used
 
 •   **TypeScript:**  For type safety and improved developer experience.
+
 •   **Next.js:** A React framework for building web applications.
+
 •   **Tailwind CSS:**  For styling components quickly and efficiently.
+
 •   **React:** JavaScript library for building user interfaces.
 
 ## Features (Planned/Implemented)
