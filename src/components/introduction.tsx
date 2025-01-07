@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
@@ -13,7 +15,22 @@ function Introduction() {
           height="800"
         ></Image>
         <div className="flex flex-col justify-center">
-            <h1 className="mb-5 text-2xl leading-tight text-center md:text-left">Si puedes pensarlo</h1>
+          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
+            Si puedes pensarlo,
+            <TypeAnimation
+              sequence={[
+                "puedes desarrollarlo",
+                1200,
+                "puedes crearlo",
+                1200,
+                "puedes diseñarlo",
+                1200,
+                "puedes implementarlo",
+                1200,
+              ]}
+              className="text-secondary"
+            />
+          </h1>
         </div>
       </div>
     </div>
