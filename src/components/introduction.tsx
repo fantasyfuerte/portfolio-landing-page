@@ -16,7 +16,7 @@ function Introduction() {
         ></Image>
         <div className="flex flex-col justify-center">
           <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
-            Si puedes pensarlo,
+            Si puedes pensarlo,<br/>
             <TypeAnimation
               sequence={[
                 "puedes desarrollarlo",
