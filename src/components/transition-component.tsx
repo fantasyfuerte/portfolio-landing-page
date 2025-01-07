@@ -13,7 +13,6 @@ const MotionTransition = (props: Props) => {
   const { children, position, className } = props;
 
   const variants = fadeIn(position)
-  console.log(variants)
 
   return (
     <motion.div
