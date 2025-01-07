@@ -1,10 +1,13 @@
+import Container from "@/components/container";
 import TransitionPage from "@/components/transition-page";
 
 function AboutMePage() {
   return (
     <div>
       <TransitionPage />
-      <div>AboutMePage</div>
+      <Container>
+        <p>AboutMePage</p>
+      </Container>
     </div>
   );
 }
