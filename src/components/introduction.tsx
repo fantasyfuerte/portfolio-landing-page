@@ -44,8 +44,16 @@ function Introduction() {
           <div className="flex justify-center items-center gap-3 md:justify-start md:gap-10">
             <Link
               href="/projects"
-              className="px3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
-            ></Link>
+              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
+            >
+              Ver proyectos
+            </Link>
+            <Link
+              href="/projects"
+              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary/50 border-secondary text-secondary"
+            >
+              Contacta conmigo
+            </Link>
           </div>
         </div>
       </div>
