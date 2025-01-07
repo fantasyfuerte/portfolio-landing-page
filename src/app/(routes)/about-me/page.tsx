@@ -1,3 +1,4 @@
+import AvatarComponent from "@/components/avatar";
 import Container from "@/components/container";
 import TransitionPage from "@/components/transition-page";
 
@@ -6,6 +7,7 @@ function AboutMePage() {
     <div>
       <TransitionPage />
       <Container>
+        <AvatarComponent />
         <p>AboutMePage</p>
       </Container>
     </div>
