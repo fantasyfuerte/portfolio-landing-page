@@ -49,7 +49,7 @@ function Introduction() {
               Ver proyectos
             </Link>
             <Link
-              href="/projects"
+              href="/contact"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary/50 border-secondary text-secondary"
             >
               Contacta conmigo
