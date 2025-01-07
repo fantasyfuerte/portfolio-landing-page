@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
 function Introduction() {
@@ -40,6 +41,12 @@ function Introduction() {
             crear experiencias digitales impactantes y accesibles para los
             usuarios.
           </p>
+          <div className="flex justify-center items-center gap-3 md:justify-start md:gap-10">
+            <Link
+              href="/projects"
+              className="px3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
+            ></Link>
+          </div>
         </div>
       </div>
     </div>
