@@ -30,7 +30,8 @@ function Introduction() {
               ]}
               wrapper="span"
               speed={50}
-              className="text-secondary"
+              repeat={Infinity}
+              className="font-bold text-secondary"
             />
           </h1>
         </div>
