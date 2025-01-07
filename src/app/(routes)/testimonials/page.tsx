@@ -1,6 +1,12 @@
+import Container from "@/components/container"
+
 function TestimonialsPage() {
   return (
-    <div>TestimonialsPage</div>
+    <div>
+      <Container>
+        <p>From testimonials</p>
+      </Container>
+    </div>
   )
 }
 
