@@ -28,6 +28,8 @@ function Introduction() {
                 "puedes implementarlo",
                 1200,
               ]}
+              wrapper="span"
+              speed={50}
               className="text-secondary"
             />
           </h1>
