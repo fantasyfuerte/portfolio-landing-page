@@ -9,7 +9,12 @@ function CounterServices() {
       {dataCounter.map(
         ({ id, endCounter, text, lineRight, lineRightMobile }) => (
           <div key={id} className={`${lineRight && "ltr"}`}>
-            <div className={`${lineRightMobile && "px-4 border-2 border-transparent md:border-e-gray-100"}`}>
+            <div
+              className={`${
+                lineRightMobile &&
+                "px-4 border-2 border-transparent md:border-e-gray-100"
+              }`}
+            >
               <p>
                 + <Counter start={0} end={endCounter} duration={5} />
               </p>
