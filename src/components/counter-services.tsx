@@ -17,7 +17,7 @@ function CounterServices() {
                 }`
               }`}
             >
-              <p>
+              <p className="mb-2 text-2xl text-secondary font-bold">
                 + <Counter start={0} end={endCounter} duration={5} />
               </p>
               <p className="text-xs uppercase max-w-[100px]">{text}</p>
