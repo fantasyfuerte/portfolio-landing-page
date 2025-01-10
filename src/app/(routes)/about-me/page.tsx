@@ -1,6 +1,7 @@
 import Avatar from "@/components/avatar";
 import Container from "@/components/container";
 import CounterServices from "@/components/counter-services";
+import TimeLine from "@/components/time-line";
 import TransitionPage from "@/components/transition-page";
 
 function AboutMePage() {
@@ -16,6 +17,7 @@ function AboutMePage() {
           </span>
         </h1>
         <CounterServices />
+        <TimeLine/>
       </Container>
     </div>
   );
