@@ -11,8 +11,10 @@ function CounterServices() {
           <div key={id} className={`${lineRight && "ltr"}`}>
             <div
               className={`${
-                lineRightMobile &&
-                "px-4 border-2 border-transparent md:border-e-gray-100"
+                lineRight &&
+                `px-4 border-2 border-transparent md:border-e-gray-100 ${
+                  lineRightMobile && "border-e-gray-100"
+                }`
               }`}
             >
               <p>
