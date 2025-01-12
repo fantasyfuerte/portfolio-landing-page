@@ -41,11 +41,3 @@ The primary goal of this project is to gain hands-on experience with:
 •   **[Optional] Blog/Writing Section:** To share thoughts and experiences.
 
 
-▌Contributing
-
-Feel free to contribute by submitting pull requests or opening issues to report bugs or propose enhancements.
-
-▌Notes
-
-This project is primarily for learning and practice purposes.  The features and structure might be adjusted as needed.
-
