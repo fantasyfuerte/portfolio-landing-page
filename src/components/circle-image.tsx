@@ -4,7 +4,7 @@ function CircleImage() {
   return (
     <div className="bottom-0 right-0 hidden md:inline-block md:absolute">
       <Image
-        src="./circles.png"
+        src="/circles.png"
         width="300"
         height="300"
         alt="Circle"
