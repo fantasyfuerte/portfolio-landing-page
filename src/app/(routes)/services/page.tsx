@@ -1,5 +1,6 @@
 import AvatarServices from "@/components/avatar-services";
 import CircleImage from "@/components/circle-image";
+import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
 
 function ServicesPage() {
@@ -21,6 +22,12 @@ function ServicesPage() {
             la identidad de marca de mis clientes y mejoran su presencia en
             línea.
           </p>
+          <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
+            Contacta conmigo
+          </button>
+        </div>
+        <div>
+          <SliderServices />
         </div>
       </div>
     </>
