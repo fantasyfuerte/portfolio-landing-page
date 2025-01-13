@@ -20,6 +20,7 @@ function TimeLine() {
                     {data.subtitle}
                   </p>
                 </div>
+                  <p className="text-slate-400">{data.description}</p>
               </div>
             );
           })}
