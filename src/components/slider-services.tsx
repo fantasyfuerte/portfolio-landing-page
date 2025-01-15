@@ -19,7 +19,7 @@ function SliderServices() {
           slidesPerView: 2,
           spaceBetween: 15,
         },
-        1024: {
+        1000: {
           slidesPerView: 3,
           spaceBetween: 15,
         },
