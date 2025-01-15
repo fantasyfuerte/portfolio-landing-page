@@ -26,7 +26,7 @@ function ServicesPage() {
             Contacta conmigo
           </button>
         </div>
-        <div>
+        <div className="pb-24">
           <SliderServices />
         </div>
       </div>
