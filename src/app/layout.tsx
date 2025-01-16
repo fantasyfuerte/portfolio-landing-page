@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
+      <body className={`${urbanist.className} select-none`}>
         <Navbar />
         <Header />
         {children}
