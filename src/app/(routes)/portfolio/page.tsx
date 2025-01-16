@@ -1,7 +1,12 @@
+import Container from "@/components/container";
+import TransitionPage from "@/components/transition-page";
+
 function PortfolioPage() {
   return (
-    <div>PortfolioPage</div>
-  )
+    <Container>
+      <TransitionPage />
+    </Container>
+  );
 }
 
-export default PortfolioPage
+export default PortfolioPage;
