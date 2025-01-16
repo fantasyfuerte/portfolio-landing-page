@@ -1,9 +1,47 @@
-import React from 'react'
+import Image from "next/image";
+import { GithubIcon, TvMinimalPlay } from "lucide-react";
 
-function PortfolioBox() {
-  return (
-    <div>PortfolioBox</div>
-  )
+interface PortfolioBoxProp {
+  data: {
+    id: number;
+    title: string;
+    image: string;
+    urlGithub: string;
+    urlDemo: string;
+  };
 }
 
-export default PortfolioBox
+function PortfolioBox(props: PortfolioBoxProp) {
+  const { image, title, urlDemo, urlGithub } = props.data;
+
+  return (
+    <div className="p-4 border border-teal-50 rounded-xl">
+      <h3 className="mb-4 text-xl ">{title}</h3>
+      <Image
+        src={image}
+        alt="box-image"
+        width={200}
+        height={200}
+        className="w-full md:w-[200px] rounded-2xl h-auto"
+      />
+      <div className="flex gap-5 mt-5">
+        <a
+          href={urlGithub}
+          target="_blank"
+          className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80"
+        >
+          <GithubIcon />
+        </a>
+        <a
+          href={urlDemo}
+          target="_blank"
+          className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80"
+        >
+          <TvMinimalPlay />
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default PortfolioBox;
