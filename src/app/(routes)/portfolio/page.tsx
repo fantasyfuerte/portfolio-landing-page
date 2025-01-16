@@ -1,6 +1,7 @@
 import AvatarPortfolio from "@/components/avatar-portfolio";
 import CircleImage from "@/components/circle-image";
 import Container from "@/components/container";
+import PortfolioBox from "@/components/portfolio-box";
 import TransitionPage from "@/components/transition-page";
 
 function PortfolioPage() {
@@ -14,6 +15,9 @@ function PortfolioPage() {
           Mis ultimos{" "}
           <span className="font-bold text-secondary">trabajos realizados</span>
         </h1>
+        <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 md:grid-cols-4">
+          <PortfolioBox />
+        </div>
       </div>
     </Container>
   );
