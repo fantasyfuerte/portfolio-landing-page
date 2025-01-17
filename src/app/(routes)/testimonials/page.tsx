@@ -1,13 +1,11 @@
-import Container from "@/components/container"
+import TransitionPage from "@/components/transition-page";
 
 function TestimonialsPage() {
   return (
-    <div>
-      <Container>
-        <p>From testimonials</p>
-      </Container>
-    </div>
-  )
+    <>
+      <TransitionPage />
+    </>
+  );
 }
 
-export default TestimonialsPage
+export default TestimonialsPage;
