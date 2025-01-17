@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function CircleImage() {
   return (
-    <div className="bottom-0 right-0 hidden md:inline-block md:absolute">
+    <div className="bottom-0 right-0 hidden md:inline-block md:fixed">
       <Image
         src="/circles.png"
         width="200"

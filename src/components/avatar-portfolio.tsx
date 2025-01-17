@@ -6,7 +6,7 @@ function AvatarPortfolio() {
   return (
     <MotionTransition
       position="bottom"
-      className="bottom-0 left-0 hidden md:inline-block md:absolute"
+      className="bottom-0 left-0 hidden md:inline-block md:fixed"
     >
       <Image
         src="/avatar-works.png"

@@ -8,7 +8,7 @@ function AvatarComponent() {
   return (
     <MotionTransition
       position="bottom"
-      className="hidden md:inline-block md:absolute md:bottom-0 md:right-0"
+      className="hidden md:inline-block md:fixed md:bottom-0 md:right-0"
     >
       <Image
         src="/avatar-1.png"
